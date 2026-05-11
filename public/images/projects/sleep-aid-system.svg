@@ -1,0 +1,13 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="40" fill="#EFF6FF"/>
+  <rect x="64" y="64" width="1072" height="592" rx="32" fill="#FFFFFF"/>
+  <text x="112" y="166" fill="#0F7AE5" font-size="24" font-family="Arial">System Thinking</text>
+  <text x="112" y="256" fill="#0F172A" font-size="48" font-family="Arial" font-weight="700">智能交互睡眠辅助系统</text>
+  <text x="112" y="312" fill="#475569" font-size="26" font-family="Arial">从日间感知到夜间环境联动的完整闭环</text>
+  <circle cx="252" cy="478" r="86" fill="#DBEAFE"/>
+  <circle cx="600" cy="478" r="86" fill="#E2E8F0"/>
+  <circle cx="948" cy="478" r="86" fill="#DBEAFE"/>
+  <text x="205" y="486" fill="#0F172A" font-size="24" font-family="Arial">感知</text>
+  <text x="553" y="486" fill="#0F172A" font-size="24" font-family="Arial">判断</text>
+  <text x="901" y="486" fill="#0F172A" font-size="24" font-family="Arial">联动</text>
+</svg>

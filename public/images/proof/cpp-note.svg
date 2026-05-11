@@ -1,0 +1,6 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="28" fill="#F8FAFC"/>
+  <text x="178" y="146" fill="#0F172A" font-size="34" font-family="Arial" font-weight="700">C++ 内存池学习笔记</text>
+  <rect x="120" y="230" width="660" height="160" rx="24" fill="#0F172A"/>
+  <text x="164" y="322" fill="#E2E8F0" font-size="26" font-family="Arial">Thread Cache / Central Cache / Span</text>
+</svg>

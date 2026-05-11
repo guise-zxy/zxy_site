@@ -1,0 +1,7 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="28" fill="#EEF6FF"/>
+  <circle cx="262" cy="306" r="64" fill="#DBEAFE"/>
+  <circle cx="450" cy="306" r="64" fill="#BFDBFE"/>
+  <circle cx="638" cy="306" r="64" fill="#DBEAFE"/>
+  <text x="290" y="148" fill="#0F172A" font-size="34" font-family="Arial" font-weight="700">小组推进与协同记录</text>
+</svg>

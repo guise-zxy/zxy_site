@@ -1,0 +1,16 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="40" fill="#F0F7FF"/>
+  <rect x="56" y="56" width="1088" height="608" rx="32" fill="white"/>
+  <rect x="112" y="132" width="256" height="44" rx="22" fill="#DCEEFF"/>
+  <text x="132" y="161" fill="#0F7AE5" font-size="22" font-family="Arial">AI-HR Exploration</text>
+  <text x="112" y="250" fill="#0F172A" font-size="52" font-family="Arial" font-weight="700">AI 求职自检官</text>
+  <text x="112" y="308" fill="#475569" font-size="26" font-family="Arial">岗位理解 / 能力诊断 / 面试追问 / 反馈生成</text>
+  <rect x="112" y="380" width="220" height="112" rx="24" fill="#EFF6FF"/>
+  <rect x="356" y="380" width="220" height="112" rx="24" fill="#F8FAFC"/>
+  <rect x="600" y="380" width="220" height="112" rx="24" fill="#EFF6FF"/>
+  <rect x="844" y="380" width="220" height="112" rx="24" fill="#F8FAFC"/>
+  <text x="152" y="444" fill="#0F172A" font-size="24" font-family="Arial">JD 分析</text>
+  <text x="402" y="444" fill="#0F172A" font-size="24" font-family="Arial">经历匹配</text>
+  <text x="642" y="444" fill="#0F172A" font-size="24" font-family="Arial">能力评分</text>
+  <text x="892" y="444" fill="#0F172A" font-size="24" font-family="Arial">追问训练</text>
+</svg>

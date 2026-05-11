@@ -1,0 +1,7 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="28" fill="#EEF6FF"/>
+  <text x="172" y="140" fill="#0F172A" font-size="34" font-family="Arial" font-weight="700">睡眠辅助系统架构示意</text>
+  <circle cx="240" cy="312" r="80" fill="#DBEAFE"/>
+  <circle cx="450" cy="312" r="80" fill="#FFFFFF"/>
+  <circle cx="660" cy="312" r="80" fill="#DBEAFE"/>
+</svg>
