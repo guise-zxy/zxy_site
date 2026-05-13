@@ -24,9 +24,10 @@ export function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="relative overflow-hidden rounded-[36px] border border-slate-200 bg-white px-6 py-10 shadow-[0_24px_80px_-50px_rgba(14,165,233,0.45)] sm:px-8 sm:py-12 lg:px-12 lg:py-16">
-      <div className="absolute inset-y-0 right-0 hidden w-1/3 bg-[radial-gradient(circle_at_top,_rgba(14,165,233,0.14),_transparent_70%)] lg:block" />
-      <div className="relative grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
-        <div>
+      <div className="absolute inset-y-0 right-0 hidden w-[38%] bg-[radial-gradient(circle_at_top,_rgba(14,165,233,0.14),_transparent_72%)] lg:block" />
+
+      <div className="relative grid gap-10 lg:grid-cols-[minmax(0,1.28fr)_minmax(320px,0.72fr)] lg:items-center lg:gap-12">
+        <div className="max-w-4xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-600">
             {eyebrow}
           </p>
@@ -36,6 +37,7 @@ export function HeroSection({
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
             {intro}
           </p>
+
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={primaryCta.href}
@@ -51,6 +53,7 @@ export function HeroSection({
               {secondaryCta.label}
             </Link>
           </div>
+
           <div className="mt-8 flex flex-wrap gap-2">
             {tags.map((tag) => (
               <Tag key={tag}>{tag}</Tag>
@@ -58,7 +61,7 @@ export function HeroSection({
           </div>
         </div>
 
-        <div className="rounded-[28px] border border-sky-100 bg-sky-50/70 p-6">
+        <aside className="mx-auto w-full max-w-[392px] rounded-[28px] border border-sky-100 bg-linear-to-b from-sky-50/90 to-white p-6 shadow-[0_20px_45px_-35px_rgba(14,116,225,0.35)] lg:mx-0 lg:justify-self-end">
           <p className="text-sm font-semibold text-slate-950">
             面试官 10 秒内应该看到什么
           </p>
@@ -66,13 +69,13 @@ export function HeroSection({
             {quickFacts.map((fact) => (
               <li
                 key={fact}
-                className="rounded-2xl border border-white bg-white/90 px-4 py-3"
+                className="rounded-2xl border border-white/90 bg-white px-4 py-3 shadow-[0_12px_24px_-22px_rgba(15,23,42,0.35)]"
               >
                 {fact}
               </li>
             ))}
           </ul>
-        </div>
+        </aside>
       </div>
     </section>
   );
